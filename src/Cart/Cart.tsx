@@ -2,6 +2,7 @@ import { Product } from '../shared/types'
 import {useCartContext} from '../CartContext/CartContext'
 import { Link } from 'react-router-dom'
 import { CartItem } from './CartItem'
+import React from 'react'
 
 interface CartProps {
 	useCartHook?: () => {
